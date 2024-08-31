@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+   
+}
+.manager{
+    text-align: center;
+    padding-top: 0.5vw;
+    font-size: 3vw;
+    font-weight: 600;
+}
+.main{
+    overflow-x: hidden;
+}
+.task{
+    height: 5vh;
+}
+.box-hover:hover a{
+
+    color: whitesmoke;
+    
+}
+
+#selection::selection{
+    -webkit-user-drag: none;
+}
